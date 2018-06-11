@@ -9,6 +9,8 @@ public class euler10 {
   static ArrayList<Boolean> booleans = new ArrayList<Boolean>();
 
   public static void main(String[] args) {
+    long startTime = System.currentTimeMillis();
+
     for(int i = 0; i < TWOMILLION; i++) {
       if (i == 1 || i % 2 == 0 && i != 2) {
         booleans.add(false);
@@ -38,5 +40,7 @@ public class euler10 {
     }
     System.out.println(sum);
     System.out.println(primes.get(10000));
+    System.out.println(System.currentTimeMillis() - startTime);
+    // Runtime: 75-85 milliseconds across multiple tests.
   }
 }
