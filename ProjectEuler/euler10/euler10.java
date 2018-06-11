@@ -33,11 +33,9 @@ public class euler10 {
       if (booleans.get(i)) {
         primes.add(i);
         sum += i;
-        if(sum<0) {
-          System.out.println(sum);
-        }
       }
     }
+    
     System.out.println(sum);
     System.out.println(primes.get(10000));
     System.out.println(System.currentTimeMillis() - startTime);
