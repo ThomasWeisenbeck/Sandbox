@@ -21,5 +21,7 @@ public class Main {
     System.out.println("Root's Right: " + tree.getRoot().right.getData());
 
     System.out.println("Search for A: " + tree.search('A'));
+
+    tree.depthTraverse();
   }
 }

@@ -1,4 +1,5 @@
 package BinaryTree;
+import java.util.Stack;
 
 public class BinaryTree {
   private Node root;
@@ -44,6 +45,26 @@ public class BinaryTree {
       }
       else {
         return search(location.right, data);
+      }
+    }
+  }
+
+  public void depthTraverse() {
+    Stack<Node> stack = new Stack<Node>();
+    stack.push(this.getRoot());
+
+    Node temp;
+
+    while (stack.size() > 0) {
+      System.out.println(stack.peek().getData());
+      temp = stack.pop();
+
+      if(temp.right != null) {
+        stack.push(temp.right);
+      }
+
+      if(temp.left != null) {
+        stack.push(temp.left);
       }
     }
   }
