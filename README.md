@@ -14,7 +14,7 @@ Projects:
 
 https://launchacademy.com/
 
-Starter code for these projects comes from Dan Pickett (https://github.com/dpickett).
+Starter code for these projects written by Dan Pickett (https://github.com/dpickett).
 
 -Project Euler
 
