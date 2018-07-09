@@ -1,5 +1,6 @@
 package BinaryTree;
 import java.util.Stack;
+import java.util.LinkedList;
 
 public class BinaryTree {
   private Node root;
@@ -67,5 +68,25 @@ public class BinaryTree {
         stack.push(temp.left);
       }
     }
+  }
+
+  public void breadthTraverse() {
+    LinkedList<Node> list = new LinkedList<Node>();
+    list.add(this.getRoot());
+
+    Node temp;
+
+    while (list.size() > 0) {
+      System.out.println(list.peek().getData());
+      temp = list.remove();
+
+      if(temp.right != null) {
+        list.add(temp.right);
+      }
+
+      if(temp.left != null) {
+        list.add(temp.left);
+      }
+    }  
   }
 }

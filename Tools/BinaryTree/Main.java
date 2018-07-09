@@ -23,5 +23,6 @@ public class Main {
     System.out.println("Search for A: " + tree.search('A'));
 
     tree.depthTraverse();
+    tree.breadthTraverse();
   }
 }
