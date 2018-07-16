@@ -15,3 +15,11 @@ Current WIP is writing a .depth() method so I can tell my loop where to stop, th
 My intention for the depth method is after 2^X nodes, check the most recent 2^X-1 nodes. If they are all null, break from the loop.
 
 If this all sounds really gross, you'll understand why I wanted to forego the depth method in the first place.
+
+**Dream Features**
+Ideally, a tree would also have methods to balance, re-root, various other custodial stuff to keep it from becoming a pain to work with.
+
+Right now, I keep the tree workable by doing this manually. Once the base code of the challenge is working, I'd like to do some research and figure out how to solve these problems in the tree logic.
+
+**FAQ**
+-I'm aware these are solved problems and could be looked up on the internet but that would defeat the point of learning this stuff.
