@@ -25,3 +25,7 @@ Right now, I keep the tree workable by doing this manually. Once the base code o
 **FAQ**
 
 -I'm aware these are solved problems and could be looked up on the internet but that would defeat the point of learning this stuff.
+
+TODO:
+Implement depth logic
+Upload images?
