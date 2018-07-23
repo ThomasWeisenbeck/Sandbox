@@ -28,4 +28,4 @@ Right now, I keep the tree workable by doing this manually. Once the base code o
 
 TODO:
 Implement depth logic
-Upload images?
+Upload images/diagram explaining the problem
